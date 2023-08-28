@@ -19,7 +19,7 @@ public class AwesomeMetalChairAddToWishListTest extends BasePage {
     public void MetalChairToWishList() {
         driver.get("https://fasttrackit-test.netlify.app/#/product/3");
         awesomeMetalChairAddToWishListPage.clickOnAwesomeMetalChairWishList ();
-        Assert.assertEquals ( "Success", "Success" );
+
     }
 }
 

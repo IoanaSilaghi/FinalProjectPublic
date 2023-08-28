@@ -21,6 +21,6 @@ public class AwesomeGraniteChipsAddToCartTest extends BasePage {
     public void GraniteAddToCart() {
         driver.get("https://fasttrackit-test.netlify.app/#/product/1");
         awesomeGraniteChipsAddToCartPage.clickOnGraniteCheckBox ();
-        Assert.assertEquals ( "Success" ,"Success");
+
     }
     }

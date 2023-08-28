@@ -18,7 +18,7 @@ public class GorgeousSoftPizzaCartTest extends BasePage {
     @Test
     public void GorgeousPizzaCart() {
     gorgeousSoftPizzaCartPage.clickOnGorgeousSoftPizzaCart ();
-        Assert.assertEquals ( "Success", "Success" );
+
     }
 }
 

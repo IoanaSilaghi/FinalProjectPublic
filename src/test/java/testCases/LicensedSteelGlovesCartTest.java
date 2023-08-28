@@ -21,6 +21,6 @@ public class LicensedSteelGlovesCartTest extends BasePage {
     public void LicensedSteelGloves() {
         driver.get("https://fasttrackit-test.netlify.app/#/product/8");
         licensedSteelGlovesCartPage.clickOnLicensedSteelGlovesCart ();
-        Assert.assertEquals ( "Success", "Success" );
+
     }
 }

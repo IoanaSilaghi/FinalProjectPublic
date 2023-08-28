@@ -21,7 +21,7 @@ public class AwesomeSoftShirtAddToWishListTest extends BasePage {
         public void AwesomesoftShiftWishList() {
             driver.get ( "https://fasttrackit-test.netlify.app/#/product/5" );
             awesomeSoftShirtAddToWishListPage.clickOnAwesomeSoftShirtWishList ();
-            Assert.assertEquals ( "Success", "Success" );
+
         }
     }
 

@@ -20,6 +20,6 @@ public class MetalChairTest extends BasePage {
 
     public void MetalChair() {
         OpenCartPage.clickOnOpenCartPage();
-        Assert.assertEquals("Success", "Success");
+
     }
 }

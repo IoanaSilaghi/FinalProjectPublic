@@ -22,6 +22,5 @@ public class OpenCartTest extends BasePage {
 
     public void OpenCartPage() {
         OpenCartPage.clickOnOpenCartPage();
-        Assert.assertEquals("Success", "Success");
     }
 }

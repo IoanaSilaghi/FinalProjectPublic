@@ -19,6 +19,5 @@ public class GorgeousSoftPizzaWishListTest extends BasePage {
     @Test
     public void GorgeousSoftPizzaWishList() {
         gorgeousSoftPizzaWishListPage.clickOnGorgeousSoftPizzaWishList ();
-        Assert.assertEquals ( "Success", "Success" );
     }
 }

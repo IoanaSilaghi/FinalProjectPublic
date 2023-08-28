@@ -21,6 +21,5 @@ public class LicensedSteelGlovesWishListTest extends BasePage {
     public void LicensedSteelGlovesWishList() {
         driver.get("https://fasttrackit-test.netlify.app/#/product/8");
         licensedSteelGlovesWishListPage.clickOnLicensedSteelGlovesWishList ();
-        Assert.assertEquals ( "Success", "Success" );
     }
 }

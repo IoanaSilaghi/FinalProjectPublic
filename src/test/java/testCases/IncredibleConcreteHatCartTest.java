@@ -21,7 +21,7 @@ public class IncredibleConcreteHatCartTest extends BasePage {
     public void ConcreteHatCart() {
         driver.get("https://fasttrackit-test.netlify.app/#/product/2");
         incredibleConcreteHatCartPage.clickOnIncredibleConcreteHatCart ();
-        Assert.assertEquals ( "Success", "Success" );
+
     }
 }
 

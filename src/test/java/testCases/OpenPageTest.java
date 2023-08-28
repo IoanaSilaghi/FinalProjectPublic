@@ -21,6 +21,5 @@ public class OpenPageTest extends BasePage {
 
     public void OpenPage() {
         OpenPage.clickOnOpenPage();
-        Assert.assertEquals("Success", "Success");
     }
 }

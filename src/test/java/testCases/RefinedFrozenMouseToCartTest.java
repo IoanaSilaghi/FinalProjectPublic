@@ -20,7 +20,6 @@ public class RefinedFrozenMouseToCartTest extends BasePage {
     public void RefinedFrozenMouseCart() {
         driver.get("https://fasttrackit-test.netlify.app/#/product/0");
             refinedFrozenMouseToCartPage.clickOnRefinedFrozenMouseCart ();
-            Assert.assertEquals ( "Success", "Success" );
         }
     }
 

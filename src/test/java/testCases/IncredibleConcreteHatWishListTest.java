@@ -21,6 +21,6 @@ public class IncredibleConcreteHatWishListTest extends BasePage {
         public void ConcreteHatWish() {
             driver.get("https://fasttrackit-test.netlify.app/#/product/2");
             incredibleConcreteHatWishListPage.clickOnIncredibleConcreteHatWishList ();
-            Assert.assertEquals ( "Success", "Success" );
+
         }
 }

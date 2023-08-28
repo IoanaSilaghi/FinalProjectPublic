@@ -19,6 +19,5 @@ public class GraniteTest extends BasePage {
 
     public void Granite() {
         GranitePage.clickOnGranitePage();
-        Assert.assertEquals("Success", "Success");
     }
 }

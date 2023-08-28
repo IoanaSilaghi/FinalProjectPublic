@@ -21,7 +21,6 @@ public class PracticalWoodenBaconAddToCartTest extends BasePage {
     public void PracticalWoodenBaconCart() {
         driver.get("https://fasttrackit-test.netlify.app/#/product/4");
         practicalWoodenBaconAddToCartPage.clickOnPracticalWoodenBaconCart ();
-        Assert.assertEquals ( "Success", "Success" );
     }
 }
 

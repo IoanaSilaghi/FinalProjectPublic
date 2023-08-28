@@ -20,6 +20,6 @@ public class AwesomeGraniteChipsAddToWishListTest extends BasePage {
         public void GraniteAddToWishList() {
             driver.get("https://fasttrackit-test.netlify.app/#/product/1");
             awesomeGraniteChipsAddToWishListPage.clickOnGraniteWishList ();
-            Assert.assertEquals ( "Success" ,"Success");
+
         }
     }

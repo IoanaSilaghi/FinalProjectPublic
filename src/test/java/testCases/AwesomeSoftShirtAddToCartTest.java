@@ -19,6 +19,6 @@ public class AwesomeSoftShirtAddToCartTest extends BasePage {
     public void AwesomeSoftShirtCart() {
         driver.get("https://fasttrackit-test.netlify.app/#/product/5");
         awesomeSoftShirtAddToCartPage.clickOnAwesomeSoftShirtCart ();
-        Assert.assertEquals ( "Success", "Success" );
+
     }
 }

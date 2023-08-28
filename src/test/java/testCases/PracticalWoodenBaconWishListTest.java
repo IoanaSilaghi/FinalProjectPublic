@@ -21,6 +21,5 @@ public class PracticalWoodenBaconWishListTest extends BasePage {
         public void PracticalWoodenBaconWish() {
             driver.get("https://fasttrackit-test.netlify.app/#/product/4");
             practicalWoodenBaconWishListPage.clickOnPracticalWoodenBaconWishList ();
-            Assert.assertEquals ( "Success", "Success" );
         }
     }

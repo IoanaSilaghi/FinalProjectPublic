@@ -20,7 +20,7 @@ public class RefinedFrozenMouseWishListTest extends BasePage {
     public void RefinedFrozenMouseWishList() {
         driver.get("https://fasttrackit-test.netlify.app/#/product/0");
         refinedFrozenMouseWishListPage.clickOnRefinedFrozenMouseWishList ();
-        Assert.assertEquals ( "Success", "Success" );
+
     }
 }
 

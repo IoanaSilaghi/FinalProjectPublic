@@ -19,6 +19,6 @@ public class SearchTest extends BasePage {
 
     public void SearchPage() {
         SearchPage.clickOnSearchPage();
-        Assert.assertEquals("Success", "Success");
+
     }
 }

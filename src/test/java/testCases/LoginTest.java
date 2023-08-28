@@ -36,7 +36,6 @@ public class LoginTest extends BasePage {
         username.sendKeys("abc@gmail.com");
         password.sendKeys("your_password");
         login.click();
-        Assert.assertEquals("Success", "Success");
 
 
     }

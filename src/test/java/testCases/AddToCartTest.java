@@ -22,6 +22,6 @@ public class AddToCartTest extends BasePage{
     public void AddToCart() {
         driver.get("https://fasttrackit-test.netlify.app/#/product/9");
         addToCartPage.clickOnCheckBox ();
-        Assert.assertEquals ( "Success" ,"Success");
+
     }
 }

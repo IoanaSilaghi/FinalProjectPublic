@@ -20,7 +20,7 @@ public class AwesomeMetalChairAddToCartTest extends BasePage {
         public void AwesomeMetalChairToCart () {
             driver.get ( "https://fasttrackit-test.netlify.app/#/product/3" );
             awesomeMetalChairAddToCartPage.clickOnAwesomeMetalChair ();
-            Assert.assertEquals ( "Success", "Success" );
+
         }
     }
 

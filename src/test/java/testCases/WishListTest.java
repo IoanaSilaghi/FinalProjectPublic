@@ -19,6 +19,6 @@ public class WishListTest extends BasePage {
 
     public void WishList() {
        WishListPage.clickOnWishListPage();
-        Assert.assertEquals("Success", "Success");
+
     }
 }
